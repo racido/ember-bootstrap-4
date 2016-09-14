@@ -7,7 +7,7 @@ var stew = require('broccoli-stew');
 module.exports = {
   name: 'ember-bootstrap-4',
   treeForStyles: function() {
-    return stew.mv(bootstrapAssetPath('scss'), '.');
+    return stew.mv(bootstrapAssetPath('scss'), 'bootstrap');
   },
   treeForVendor: function() {
     return stew.mv(bootstrapAssetPath('dist/js'), 'bootstrap');
