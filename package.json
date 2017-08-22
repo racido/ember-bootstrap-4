@@ -41,9 +41,9 @@
     "ember-addon"
   ],
   "dependencies": {
-    "bootstrap": "^v4.0.0-alpha.4",
+    "bootstrap": "^v4.0.0-beta",
     "broccoli-stew": "^1.0.4",
-    "ember-cli-babel": "^5.1.5"
+    "ember-cli-babel": "^6.3.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
